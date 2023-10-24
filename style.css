@@ -1,0 +1,56 @@
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+
+background-image: url(mountain.png);
+}
+    
+.container{
+ 
+    backdrop-filter: blur(8px);
+    float: center;
+    width:450px;
+    
+    border-radius: 15px;
+    margin-top:50px;
+    border: 3px solid rgb(187, 194, 205);
+}
+h2{
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color:#f2f5ef
+
+}.form-label{
+    color:rgb(241, 138, 13);
+    font-weight:3px;
+    font-family:Verdana;
+    
+}
+
+.form-check-label{
+    color: aliceblue;
+    
+}
+
+.form-check-input:hover{
+    scale: 1.5;
+    transition:0.5s;
+
+}
+
+.btn:hover{
+    color: rgb(210, 166, 23);
+    transition: 0.5s;
+    scale:1.1;
+
+}
+.invalid-feedback{
+    color: rgb(234, 234, 243);
+    font-weight: 500;
+
+}
